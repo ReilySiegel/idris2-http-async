@@ -18,11 +18,11 @@ jobs:
       fail-fast: false
     container: ghcr.io/stefan-hoeck/idris2-pack:latest
     steps:
-      - name: Checkout idris2-http
+      - name: Checkout idris2-http-async
         uses: actions/checkout@v2
 
       - name: Build package
-        run: pack --no-prompt install http
+        run: pack --no-prompt install http-async
 
       - name: Test package
-        run: pack --no-prompt run http-test
+        run: pack --no-prompt run http-async-test

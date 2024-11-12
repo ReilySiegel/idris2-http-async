@@ -1,6 +1,6 @@
-package http
+package http-async
 version = 0.0.1
-authors = "octeep"
+authors = "octeep, Reily Siegel"
 
 readme = "README.md"
 

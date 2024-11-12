@@ -1,10 +1,10 @@
-[custom.all.http]
+[custom.all.http-async]
 type = "local"
 path = "."
-ipkg = "http.ipkg"
-test = "tests/http-test.ipkg"
+ipkg = "http-async.ipkg"
+test = "tests/http-async-test.ipkg"
 
-[custom.all.http-test]
+[custom.all.http-async-test]
 type = "local"
 path = "tests"
-ipkg = "http-test.ipkg"
+ipkg = "http-async-test.ipkg"
