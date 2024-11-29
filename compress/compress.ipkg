@@ -1,0 +1,23 @@
+package compress
+version = 0.1.0
+authors = "octeep, Reily Siegel"
+
+maintainers = "Reily Siegel"
+license = "ISC (refer to LICENSE file)"
+
+depends = base    >= 0.5.1
+        , contrib >= 0.5.1
+
+modules = Data.Compress.CRC
+        , Data.Compress.GZip
+        , Data.Compress.Inflate
+        , Data.Compress.Huffman
+        , Data.Compress.Utils.Misc
+        , Data.Compress.Utils.Bytes
+        , Data.Compress.Utils.ConstantTable
+        , Data.Compress.Utils.FiniteBuffer
+        , Data.Compress.Utils.Parser
+        , Data.Compress.Interface
+        , Data.Compress.ZLib
+
+sourcedir = "src"

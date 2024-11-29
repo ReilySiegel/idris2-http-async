@@ -1,4 +1,4 @@
-package http-test
+package http-async-test
 
 authors = "octeep"
 

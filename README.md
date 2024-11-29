@@ -16,7 +16,7 @@ Currently, the goals of this library are:
 - [ ] Replace bundled `Utils.Streaming` with `idris2-swirl`
 - [ ] Replace manually-coordinated blocking parallel code with `idris2-async`
 - [ ] Replace all instances of `List Bits8` with `idris2-bytestring`
-- [ ] Refactor `Data.Compress` to a separate package
+- [x] Refactor `Data.Compress` to a separate package
 - [ ] Refactor data declarations in `Network.HTTP` to `Data.HTTP`, in a separate
       package
 

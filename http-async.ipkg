@@ -14,19 +14,9 @@ depends = base      >= 0.5.1
         , sop       >= 0.5.0
         , elab-util >= 0.5.0
         , tls       >= 0.0.1
+        , compress  >= 0.1.0
 
-modules = Data.Compress.CRC,
-          Data.Compress.GZip,
-          Data.Compress.Inflate,
-          Data.Compress.Huffman,
-          Data.Compress.Utils.Misc,
-          Data.Compress.Utils.Bytes,
-          Data.Compress.Utils.ConstantTable,
-          Data.Compress.Utils.FiniteBuffer,
-          Data.Compress.Utils.Parser,
-          Data.Compress.Interface,
-          Data.Compress.ZLib,
-          Network.HTTP.Authorization,
+modules = Network.HTTP.Authorization,
           Network.HTTP.Header,
           Network.HTTP.Status,
           Network.HTTP.Method,

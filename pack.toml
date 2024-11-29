@@ -8,3 +8,14 @@ test = "tests/http-async-test.ipkg"
 type = "local"
 path = "tests"
 ipkg = "http-async-test.ipkg"
+
+[custom.all.compress]
+type = "local"
+path = "compress"
+ipkg = "compress.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.compress-test]
+type = "local"
+path = "compress/test"
+ipkg = "test.ipkg"
